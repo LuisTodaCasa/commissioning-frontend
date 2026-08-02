@@ -1,0 +1,17 @@
+{
+  "name": "commissioning-frontend",
+  "type": "nextjs",
+  "nodeVersion": "20",
+  "buildCommand": "npm run build",
+  "startCommand": "npm run start",
+  "healthCheckPath": "/",
+  "envVars": {
+    "NEXT_PUBLIC_BACKEND_URL": "https://commissioning-backend-XXXX.abacus.ai",
+    "NEXTAUTH_URL":            "https://commissioning-frontend-XXXX.abacus.ai",
+    "NODE_ENV":                "production"
+  },
+  "_instrucoes": {
+    "NEXT_PUBLIC_BACKEND_URL": "Substitua pela URL real do BACKEND apos criar o app do backend no Abacus",
+    "NEXTAUTH_URL":            "Substitua pela URL real do FRONTEND (a URL deste proprio app)"
+  }
+}
